@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="AllAuthServiceTests" configfailurepolicy="continue" verbose="1"
+       parallel="methods" thread-count="10" data-provider-thread-count="10">
+    <test name="FullSuite">
+        <packages>
+            <package name="com.nikitad.bookings.*"/>
+        </packages>
+    </test>
+
+</suite>

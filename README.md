@@ -43,6 +43,8 @@ Restful Booker API has some bugs for the fun of its testers.
 4. Failure to retrieve a booking should return 404 Not Found. It returns 405 Method Not Allowed.
 You will find the above bugs in the tests as comments beginning with //BUG
 
+_Disclaimer: Opinions expressed here are solely my own and do not express the views or opinions of my employer.
+_
 
 
 
